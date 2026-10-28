@@ -29,7 +29,7 @@ if(isset($_POST['dominio']) && strlen($_POST['dominio']) > 0) {
 </div>
 <div class="default-container">
     <h3>Exercício 12</h3>
-    <p>Apaga os usuários que possuem email pertencente ao domínio informado.</p>
+    <p>Busca os usuários que possuem email pertencente ao domínio informado.</p>
 </div>
 <div class="default-container centralize-elements">
     <div class="login-wrapper centralize-elements">
@@ -38,7 +38,7 @@ if(isset($_POST['dominio']) && strlen($_POST['dominio']) > 0) {
             <input type="text" name="dominio">
             <div class="centralize-elements">
                 <button type="submit" class="centralize-elements">
-                    <div class="inner-button centralize-elements">Deletar</div>
+                    <div class="inner-button centralize-elements">Buscar</div>
                 </button>
             </div>
         </form>

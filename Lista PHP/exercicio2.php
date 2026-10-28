@@ -12,6 +12,7 @@ function retornaId($email, $senha, $db) {
             if(password_verify($senha, $resultado['senha'])) {
                 return $resultado['id'];
             }
+            return -1;
         }
     } catch (PDOException $e) {
         echo 'Erro ao realizar consulta: ' . $e->getMessage();

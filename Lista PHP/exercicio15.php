@@ -14,7 +14,7 @@ function trocaNomeExcetoIntervalo($nome, $idMin, $idMax, $db) {
 }
 
 if(isset($_POST['nome']) && isset($_POST['idMin']) && isset($_POST['idMax'])) {
-    trocaNomeExcetoIntervalo($_POST['nome'], $_POST['idMin'], $_POST['idMax']);
+    trocaNomeExcetoIntervalo($_POST['nome'], $_POST['idMin'], $_POST['idMax'], $db);
     $message = 'Troca efetuada com sucesso!';
 }
 

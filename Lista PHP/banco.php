@@ -19,7 +19,7 @@ try {
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nome VARCHAR(60),
             email VARCHAR(100),
-            senha VARCHAR(32)
+            senha VARCHAR(255)
             )');  
     }
 
