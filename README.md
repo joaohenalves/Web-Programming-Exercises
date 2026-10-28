@@ -4,6 +4,8 @@ A collection of exercises developed as the final assignment for the **Programmin
 
 The project consists of two exercise sets focused on web development fundamentals.
 
+All CSS styling were implemented from scratch, without relying on external libraries or frameworks.
+
 ## 📁 Exercise Sets
 
 ### 1. PHP & SQLite
